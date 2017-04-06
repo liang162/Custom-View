@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90748041E96A795005CE370 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90748031E96A795005CE370 /* ProfileViewController.swift */; };
 		B9C4E0AA1E93225C007C349D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C4E0A91E93225C007C349D /* AppDelegate.swift */; };
 		B9C4E0AF1E93225C007C349D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C4E0AD1E93225C007C349D /* Main.storyboard */; };
 		B9C4E0B11E93225C007C349D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C4E0B01E93225C007C349D /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B90748031E96A795005CE370 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B9C4E0A61E93225C007C349D /* Custom View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C4E0A91E93225C007C349D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9C4E0AE1E93225C007C349D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				B9C4E0BC1E932331007C349D /* CardsViewController.swift */,
+				B90748031E96A795005CE370 /* ProfileViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90748041E96A795005CE370 /* ProfileViewController.swift in Sources */,
 				B9C4E0BD1E932331007C349D /* CardsViewController.swift in Sources */,
 				B9C4E0AA1E93225C007C349D /* AppDelegate.swift in Sources */,
 			);
@@ -310,6 +314,7 @@
 				B9C4E0BA1E93225C007C349D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
